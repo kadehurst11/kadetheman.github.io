@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/kadetheman/kadetheman.github.io/static/css/main.9d5b29c0.chunk.css",
-    "main.js": "/kadetheman/kadetheman.github.io/static/js/main.4987d7b3.chunk.js",
-    "main.js.map": "/kadetheman/kadetheman.github.io/static/js/main.4987d7b3.chunk.js.map",
+    "main.js": "/kadetheman/kadetheman.github.io/static/js/main.a16b3ef8.chunk.js",
+    "main.js.map": "/kadetheman/kadetheman.github.io/static/js/main.a16b3ef8.chunk.js.map",
     "runtime-main.js": "/kadetheman/kadetheman.github.io/static/js/runtime-main.3159717b.js",
     "runtime-main.js.map": "/kadetheman/kadetheman.github.io/static/js/runtime-main.3159717b.js.map",
     "static/js/2.b9245cd9.chunk.js": "/kadetheman/kadetheman.github.io/static/js/2.b9245cd9.chunk.js",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.3159717b.js",
     "static/js/2.b9245cd9.chunk.js",
     "static/css/main.9d5b29c0.chunk.css",
-    "static/js/main.4987d7b3.chunk.js"
+    "static/js/main.a16b3ef8.chunk.js"
   ]
 }
