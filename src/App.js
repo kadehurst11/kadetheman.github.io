@@ -12,6 +12,7 @@ function App() {
     
     <BrowserRouter basename={process.env.PUBLIC_URL}>
       <div className="App">
+        <p>hello</p>
   
         // Set up the Router
         <Route exact path="/" component={Home} />
