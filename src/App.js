@@ -5,6 +5,9 @@ import { BrowserRouter, Route, Link } from 'react-router-dom';
 import Home from './home.js'; 
 import Kevin from './kevin.js'; 
 import Nuggets from './nuggets.js'; 
+import Banner from './banner.js';
+import Footer from './footer.js';
+import Navbar from './NavBar.js';
 import './App.css';
  
 function App() {
@@ -12,9 +15,8 @@ function App() {
     
     <BrowserRouter basename={process.env.PUBLIC_URL}>
       <div className="App">
-        <p>hello</p>
   
-        // Set up the Router
+
         <Route exact path="/" component={Home} />
         <Route path="/kevin" component={Kevin} />
         <Route path="/nuggets" component={Nuggets} />
@@ -23,7 +25,7 @@ function App() {
           <img src={logo} className="logo-image" alt="Logo Image" />
           <div className="navigation-sub">
                                           
-            // Set up the Links
+
             <Link to="/" className="item">Home</Link>
             <Link to="/kevin" className="item">Kevin Durant</Link>
             <Link to="/nuggets" className="item">Denver Nuggets</Link>
