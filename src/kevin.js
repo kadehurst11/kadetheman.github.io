@@ -1,10 +1,15 @@
 import React from "react";
-import { KDData } from '/Users/kadehurst/web2/kadetheman.github.io/src/data.js'
+import { KDData } from '/Users/kadehurst/web2/kadetheman.github.io/src/data.js';
+import Navbar from './NavBar.js'
 function Kevin(props) {
   var tabledata = [];
 
 
     return (
+      <>
+      <Navbar/>
+
+
       <div className="row" style={{ margin: "40px"}}>
         <div className="col-sm-8">
           <h2>Career Statistics</h2>
@@ -58,6 +63,7 @@ function Kevin(props) {
                 </div>
             </div>
           </div>
+          </>
           
         );
 }

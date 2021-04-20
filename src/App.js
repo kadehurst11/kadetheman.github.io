@@ -13,13 +13,11 @@ import './App.css';
 function App() {
   return (
     
-    <BrowserRouter basename={process.env.PUBLIC_URL}>
+    // <BrowserRouter basename={process.env.PUBLIC_URL}>
       <div className="App">
   
 
-        <Route exact path="/" component={Home} />
-        <Route path="/kevin" component={Kevin} />
-        <Route path="/nuggets" component={Nuggets} />
+        
   
         <div className="navigation">
           {/* <img src={logo} className="logo-image" alt="Logo Image" /> */}
@@ -33,7 +31,8 @@ function App() {
           </div>
         </div>
       </div>
-    </BrowserRouter>
+    // </BrowserRouter>
+    
     
   );
 }

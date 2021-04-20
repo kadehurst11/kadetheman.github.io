@@ -3,10 +3,20 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { BrowserRouter, Route } from 'react-router-dom';
+import Home from './home.js'; 
+import Kevin from './kevin.js'; 
+import Nuggets from './nuggets.js';
+
 
 ReactDOM.render(
   <React.StrictMode>
+    <BrowserRouter>
     <App />
+    <Route exact path="/" component={Home} />
+    <Route path="/kevin" component={Kevin} />
+    <Route path="/nuggets" component={Nuggets} />
+    </BrowserRouter>
   </React.StrictMode>,
   document.getElementById('root')
 );

@@ -1,20 +1,29 @@
 import React from "react";
 import ReactDOM from 'react-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { BrowserRouter, Route, Link } from 'react-router-dom';
+import Home from './home.js'; 
+import Kevin from './kevin.js'; 
+import Nuggets from './nuggets.js'; 
 class Navbar extends React.Component{
     constructor(props) {
       super(props);
       this.state = {
           nav_text:['Home', 'Kevin Durant', 'Denver Nuggets'],
-          nav_urls:['index', 'kevin', 'nuggets'],
+          nav_urls:['/', '/kevin', '/nuggets'],
           current_nav:0, //current navigation id
           menu: false
       };
       this.listItems = this.state.nav_text.map( (value, index) =>
+
           <li className="nav-item">
-            <a className="nav-link" href={this.state.nav_urls[index]}>{value}</a>
+            <Link to={this.state.nav_urls[index]} className="item">{value}</Link>
           </li>
+
+      
+    
       );
+
       this.toggleMenu = this.toggleMenu.bind(this);
   }
   toggleMenu() {
@@ -22,7 +31,6 @@ class Navbar extends React.Component{
   }
   
   render() {
-    console.log("navbar");
     const show = (this.state.menu) ? "show" : "";
     return(
   
@@ -44,9 +52,9 @@ class Navbar extends React.Component{
   }
   }
 
-
-  ReactDOM.render(
+export default Navbar
+//   ReactDOM.render(
   
-      <Navbar/>,
-      document.getElementById("navbar")
-  );
+//       <Navbar/>,
+//       document.getElementById("navbar")
+//   );
