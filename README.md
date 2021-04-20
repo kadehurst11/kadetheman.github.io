@@ -1,70 +1,60 @@
-# Getting Started with Create React App
+# AdvJS-khurst
+| Name | Value |
+|:---|:---|
+| **Course** | CSCI310 - Advanced Programming JavaScript |
+| **Section** | 2 |
+| **Semester** | Spring 2021 |
+| **Student** | Kade Hurst |
+| **Mav Username**            | kvhurst |
+| **GitHub Username**         | kadetheman |
+| **Repository**          | https://github.com/kadetheman/AdvJS-khurst.git |
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Projects
 
-## Available Scripts
+### Project 0
 
-In the project directory, you can run:
+| Name | Value |
+| :--- | :--- |
+| Name | Dev Environment and Github Account |
+| Description | Github account setup |
+| Due Date | 1-Feb-21 |
+| Status | Done |
+| Location | https://github.com/kadetheman/AdvJS-khurst.git |
+| Self Grade | 100/100 |
+| Notes | completed all the requirements as well as updated README as instructed |
 
-### `npm start`
+### Project 1
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+| Name | Value |
+| :--- | :--- |
+| Name | Hangman |
+| Description | Hangman in command line|
+| Due Date | 22-Feb-21 |
+| Status | Done |
+| Location | https://github.com/kadetheman/AdvJS-khurst.git |
+| Self Grade | 80/100 |
+| Notes | Did not have time to upload screenshots |
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### Project 2
 
-### `npm test`
+| Name | Value |
+| :--- | :--- |
+| Name | Kattis Problems |
+| Description | Solved two kattis problems at 1.7 difficulty or above|
+| Due Date | 15-Mar-21 |
+| Status | Done |
+| Location | https://github.com/kadetheman/AdvJS-khurst.git |
+| Self Grade | 100/100 |
+| Notes | Wrote three seperate test cases for both problems tests were ran using mocha|
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Project 3
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+| Name | Value |
+| :--- | :--- |
+| Name | Client Side JS Using React |
+| Description | Client Side|
+| Due Date | 12-Apr-21 |
+| Status | Done |
+| Location | https://github.com/kadetheman/AdvJS-khurst.git |
+| Self Grade | 100/100 |
+| Notes | ran using npm start and npm test all tests passed website was designed in full screen so please view in full screen to see finished product. My website ia bout myself and my love for basketball. The kevin.js table uses a json file to upload data.|
