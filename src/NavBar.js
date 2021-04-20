@@ -17,7 +17,7 @@ class Navbar extends React.Component{
       this.listItems = this.state.nav_text.map( (value, index) =>
 
           <li className="nav-item">
-            <Link to={this.state.nav_urls[index]} className="item">{value}</Link>
+            <Link to={this.state.nav_urls[index]} className="nav-link">{value}</Link>
           </li>
 
       

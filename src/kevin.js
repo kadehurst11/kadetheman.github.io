@@ -1,13 +1,20 @@
 import React from "react";
 import { KDData } from '/Users/kadehurst/web2/kadetheman.github.io/src/data.js';
 import Navbar from './NavBar.js'
+import Footer from './footer.js'
+import Banner from './banner.js'
 function Kevin(props) {
   var tabledata = [];
 
 
     return (
       <>
+      <div id="banner" class="jumbotron text-center" style={{height: '200px'}}>
+      <Banner/>
+      </div>
+      <div id="navbar" style={{marginTop: '-30px'}}>
       <Navbar/>
+      </div>
 
 
       <div className="row" style={{ margin: "40px"}}>
@@ -62,6 +69,9 @@ function Kevin(props) {
                 <p>One of the 99 cards in existance is currently listed on<a href="https://www.ebay.com/itm/2007-Exquisite-Collection-Kevin-Durant-ROOKIE-RC-PATCH-AUTO-99-94-BGS-9-PMJS/164408248951?hash=item26477eca77:g:6SsAAOSwR9Bfc2le" target="_blank" rel="noreferrer"> Ebay</a> for $750,00!!</p>
                 </div>
             </div>
+          </div>
+          <div id="footer">
+          <Footer/>
           </div>
           </>
           

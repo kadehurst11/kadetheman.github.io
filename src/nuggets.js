@@ -1,7 +1,17 @@
-import React from "react"
+import React from "react";
+import Navbar from './NavBar.js'
+import Footer from './footer.js'
+import Banner from './banner.js'
  
 function Nuggets(props) {
   return (
+    <>
+    <div id="banner" class="jumbotron text-center" style={{height: '200px'}}>
+    <Banner/>
+   </div>
+    <div id="navbar" style={{marginTop: '-30px'}}>
+      <Navbar/>
+    </div>
     <div className="row" style={{ margin: "40px"}}>
       <div className="col-sm-8">
         <h2 id ='nug'>Nuggets Regular Season Results Since 2001</h2>
@@ -199,6 +209,10 @@ function Nuggets(props) {
               </div>
           </div>
         </div>
+        <div id="footer">
+      <Footer/>
+    </div>
+        </>
         
       );
 }

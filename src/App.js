@@ -13,25 +13,8 @@ import './App.css';
 function App() {
   return (
     
-    // <BrowserRouter basename={process.env.PUBLIC_URL}>
-      <div className="App">
-  
-
-        
-  
-        <div className="navigation">
-          {/* <img src={logo} className="logo-image" alt="Logo Image" /> */}
-          <div className="navigation-sub">
-                                          
-
-            <Link to="/" className="item">Home</Link>
-            <Link to="/kevin" className="item">Kevin Durant</Link>
-            <Link to="/nuggets" className="item">Denver Nuggets</Link>
-  
-          </div>
-        </div>
-      </div>
-    // </BrowserRouter>
+  <>
+  </>
     
     
   );

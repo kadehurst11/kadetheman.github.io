@@ -1,7 +1,17 @@
-import React from "react"
+import React from "react";
+import Navbar from './NavBar.js'
+import Footer from './footer.js'
+import Banner from './banner.js'
  
 function Home(props) {
   return (
+   <>
+   <div id="banner" class="jumbotron text-center" style={{height: '200px'}}>
+    <Banner/>
+   </div>
+   <div id="navbar" style={{marginTop: '-30px'}}>
+      <Navbar/>
+    </div>
     <div className="row" style={{margin: "50px"}}>
       <div className="col-sm-4">
         <h2 id='me'>About Me</h2>
@@ -139,6 +149,10 @@ function Home(props) {
         <br />
       </div>
     </div>
+    <div id="footer">
+      <Footer/>
+    </div>
+    </>
   );
 }
  
