@@ -1,4 +1,5 @@
 import React from "react";
+import ReactDOM from 'react-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 class Navbar extends React.Component{
     constructor(props) {
@@ -44,3 +45,8 @@ class Navbar extends React.Component{
   }
 
   export default Navbar
+//   ReactDOM.render()
+//   {
+//       <Navbar/>,
+//       document.getElementById("navbar");
+//   }

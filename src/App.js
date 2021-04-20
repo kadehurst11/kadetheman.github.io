@@ -22,7 +22,7 @@ function App() {
         <Route path="/nuggets" component={Nuggets} />
   
         <div className="navigation">
-          <img src={logo} className="logo-image" alt="Logo Image" />
+          {/* <img src={logo} className="logo-image" alt="Logo Image" /> */}
           <div className="navigation-sub">
                                           
 
